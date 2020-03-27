@@ -6,7 +6,7 @@ html, body{
 
 }
 
-main {
+main, footer {
   padding: 15px;
 }
 
