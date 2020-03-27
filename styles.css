@@ -6,6 +6,10 @@ html, body{
 
 }
 
+main {
+  padding: 15px;
+}
+
 header{
   border-bottom: 1px solid black;
 }
