@@ -1,7 +1,35 @@
+html, body{
+  margin: 0;
+  padding; 0;
+  color: #000;
+}
+
 h1 {
   background-color: grey;
+  color: white;
+}
+
+h1:hover{
+  color:yellow);
 }
 
 h2 {
-  color: blue;
+  color: #0000ff;
+}
+
+h4 {
+  text-decoration: underline;
+}
+
+.company{
+  color: black
+
+}
+.company a:hover{
+  color: rgb(2, 37, 2);
+}
+
+
+a:visited{
+  color:#008000;
 }
