@@ -1,16 +1,23 @@
 html, body{
   margin: 0;
-  padding; 0;
+  padding: 0;
   color: #000;
+
+
 }
 
+header{
+  border-bottom: 1px solid black;
+}
 h1 {
-  background-color: grey;
-  color: white;
+  background-color: rgb(255, 255, 255);
+  color: rgb(49, 44, 44);
+  text-align: center;
 }
 
-h1:hover{
-  color:yellow);
+/* This is not working for some reason */
+h1 a:hover{
+  color:yellow;
 }
 
 h2 {
@@ -32,4 +39,16 @@ h4 {
 
 a:visited{
   color:#008000;
+}
+
+img{
+  align:middle
+}
+
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
