@@ -2,21 +2,24 @@ html, body{
   margin: 0;
   padding: 0;
   color: #000;
+  background: rgb(233, 233, 233);
   font-family: "Courier New"
 
 }
 
-main, footer {
+header, main, footer {
   padding: 15px;
 }
 
 header{
   border-bottom: 1px solid black;
 }
+
 h1 {
   background-color: rgb(255, 255, 255);
   color: rgb(49, 44, 44);
   text-align: center;
+  border: 5px dashed black;
 }
 
 /* This is not working for some reason */
@@ -55,4 +58,21 @@ img{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+/* I'm not sure what .center is for.  I don't see where i'm using this? */
+
+.intro {
+  color: rgb(8, 123, 255);
+  margin-left: 1000px;
+  margin-right: 1000px;
+}
+
+#info ul{
+  text-align: center;
+}
+#info li{
+
+  display: inline;
+
+
 }
